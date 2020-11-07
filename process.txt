@@ -1,0 +1,21 @@
+annotation of data
+create pbtxt file
+generate tfrecords
+
+
+at research run  set PYTHONPATH=$PYTHONPATH: 'pwd' : 'pwd'/slim
+download tensorflow/model and model that you train and config file
+update config file
+move everything to object_detection
+copy object_detection/lagacy folder to object detection
+copy research/slim/ net and deployment folder to object detection
+start training
+export graph
+update webcame file
+
+
+
+
+secource:
+https://github.com/Bengemon825/TF_Object_Detection2020
+https://github.com/armaanpriyadarshan/Training-a-Custom-TensorFlow-2.X-Object-Detector
